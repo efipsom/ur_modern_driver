@@ -54,5 +54,6 @@
     <param name="tool_frame" type="str" value="$(arg tool_frame)"/>
     <param name="require_activation" type="str" value="$(arg require_activation)" />
     <param name="shutdown_on_disconnect" type="bool" value="$(arg shutdown_on_disconnect)"/>
+    <remap from="/joint_states" to="/ur5/joint_states"/>
   </node>
 </launch>
