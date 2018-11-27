@@ -13,7 +13,7 @@
   <arg name="limited" default="false"/>
   <arg name="min_payload"  default="0.0"/>
   <arg name="max_payload"  default="5.0"/>
-  <arg name="prefix" default="" />
+  <arg name="prefix" default="/ur5/" />
   <arg name="use_lowbandwidth_trajectory_follower" default="false"/>
   <arg name="time_interval" default="0.008"/>
   <arg name="servoj_time" default="0.008" />
